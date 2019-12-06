@@ -1,1 +1,1 @@
-React Weather App
+React News App
