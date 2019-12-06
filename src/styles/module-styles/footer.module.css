@@ -1,0 +1,35 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background: #2E2E2E;
+	color: white;
+
+	margin-bottom: 10px;
+	padding: 10px 200px;
+	
+	/* border-top: 7px solid #17A2B8; */
+}
+
+.social {
+
+}
+
+.socialImg {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+.linkA {
+	width: 300px;
+	height: 30px;
+
+	margin: 0 10px;
+}
+
+.linkA:hover {
+	background: none;
+}
