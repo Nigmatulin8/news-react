@@ -7,16 +7,14 @@ import News from './../components/news.js';
 import Footer from './../components/footer.js';
 
 export default class extends React.Component {
-    render() {
-            return (
-                <>
-                
-                    <Header /> 
-                    <div className={style.headline}> Latest news from the internet </div>
-                    <News />
-                    <Footer />
-                
-                </>       
-            )
-    }
+  render() {
+    return (
+      <>
+        <Header />
+        <div className={style.headline}> Latest news from the internet </div>
+        <News />
+        <Footer />
+      </>
+    );
+  }
 }
